@@ -1,0 +1,99 @@
+.logoImg {
+  height: 40px;
+}
+
+.timerImg {
+  height: 25px;
+  margin-left: 55px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+nav {
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 40px;
+  align-items: center;
+  height: 80px;
+}
+
+p {
+  color: white;
+}
+
+.navDiv {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.secPara {
+  color: #fec653;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+span {
+  color: #fec653;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.scorePara {
+  font-size: 20px;
+}
+
+.bgThing {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-bg.png");
+  background-size: cover;
+}
+
+li {
+  color: white;
+  cursor: pointer;
+}
+
+.tabsUl {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.thumbUl {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.matchImg {
+  height: 250px;
+  margin-top: 25px;
+}
+
+.thumbImg {
+  height: 120px;
+  margin: 5px;
+}
+
+.active {
+  color: #fec653;
+  border-bottom: 3px solid #fec653;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+}
